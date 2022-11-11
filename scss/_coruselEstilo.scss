@@ -1,0 +1,52 @@
+.banerContenedor{
+    background-color: #641220; 
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.imgCorusel{
+    width: 500px;
+    height: 250px;
+  }
+
+  .imagenAni1:hover {
+    filter: grayscale(80%);
+}
+
+.imagenAni2:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.imgTexto img{
+    height: 350px;
+    width: 550px;
+}
+ 
+
+.conCarousel{
+    padding: 6px;
+}
+
+.contenedorImaTexto p{
+    color: #781C68;
+    font-weight: bold;
+  }
+
+  .contenedorImaTexto{
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    background-image: url("../Imagenes/fondo1.jpg");
+}
+

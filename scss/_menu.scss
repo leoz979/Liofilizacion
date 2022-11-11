@@ -1,0 +1,25 @@
+.cabecera{
+    background-color: #590d22;
+    border:  3px black solid;
+    width:fit-content;
+    height: auto;
+    margin: auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.menu{
+    display: inline;
+    margin: 15px;
+}
+
+.cabeceraHijo a{
+    text-decoration: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+    background-color: #590d22;
+}
+.navColor{
+    background-color: #590d22;
+}

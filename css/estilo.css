@@ -1,0 +1,285 @@
+@charset "UTF-8";
+.foot {
+  background-color: #c9184a;
+}
+
+.foot h3 {
+  text-align: center;
+  color: #ffccd5;
+}
+
+.foot p {
+  text-align: center;
+  color: white;
+  font: bold;
+}
+
+.footRedesSociales {
+  border: 3px solid #c9184a;
+}
+
+.cabecera {
+  background-color: #590d22;
+  border: 3px black solid;
+  width: fit-content;
+  height: auto;
+  margin: auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: inline;
+  margin: 15px;
+}
+
+.cabeceraHijo a {
+  text-decoration: none;
+  color: antiquewhite;
+  text-transform: uppercase;
+  background-color: #590d22;
+}
+
+.navColor {
+  background-color: #590d22;
+}
+
+.banerContenedor {
+  background-color: #641220;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.imgCorusel {
+  width: 500px;
+  height: 250px;
+}
+
+.imagenAni1:hover {
+  filter: grayscale(80%);
+}
+
+.imagenAni2:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.imgTexto img {
+  height: 350px;
+  width: 550px;
+}
+
+.conCarousel {
+  padding: 6px;
+}
+
+.contenedorImaTexto p {
+  color: #781C68;
+  font-weight: bold;
+}
+
+.contenedorImaTexto {
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("../Imagenes/fondo1.jpg");
+}
+
+.beneficiosContenedor {
+  background-color: #FFF5E4;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.hijoContenedor img {
+  height: 150px;
+  width: 180px;
+  border: 1px black dotted;
+  margin: 5px 15px 5px 20px;
+}
+
+.imgTexto {
+  margin: 5px 5px 5px 0px;
+}
+
+.contenedorCentrar {
+  display: flex;
+  align-items: center;
+}
+
+.hijoContenedor p {
+  height: auto;
+  width: 180px;
+  margin: 5px 15px 5px 20px;
+  font-family: cursive;
+}
+.hijoContenedor h2 {
+  height: auto;
+  width: 180px;
+  margin: 5px 15px 5px 30px;
+  justify-content: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.servicios p {
+  height: auto;
+  width: 400px;
+}
+
+.imgRedonda {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+
+/* Animación */
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+.animacionLetra {
+  animation-name: texto;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.imagenAni1:hover {
+  filter: grayscale(80%);
+}
+
+.imagenAni2:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.imagenAni3:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #ec731e;
+  -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+/* Vista Tablet y celular */
+@media (min-width: 300px) and (max-width: 900px) {
+  .vistaTexto {
+    display: none;
+  }
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .vistaVideo {
+    width: 350px;
+    height: 200px;
+  }
+}
+@media (min-width: 601px) and (max-width: 929px) {
+  .vistaVideo {
+    width: 380px;
+    height: 250px;
+  }
+}
+@media (min-width: 930px) and (max-width: 1000px) {
+  .vistaVideo {
+    width: 450px;
+    height: 270px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1329px) {
+  .vistaVideo {
+    width: 500px;
+    height: 325px;
+  }
+}
+@media (min-width: 1330px) and (max-width: 2500px) {
+  .vistaVideo {
+    width: 660px;
+    height: 415px;
+  }
+}
+.flotanteWhastApp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-flotante {
+  margin-top: 16px;
+}
+
+.contenedorContacto {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactoFondo {
+  background-image: url("../Imagenes/Contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgContactenos img {
+  height: 35px;
+  width: 55px;
+  border: 2px black solid;
+  margin: 55px 15px 5px 20px;
+}
+
+@font-face {
+  font-family: Avigea;
+  src: url("../Letra/Avigea.ttf");
+}
+.letraH1 {
+  font-family: Avigea;
+  text-align: start;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.letraH2 {
+  font-family: Avigea;
+  font-size: 2rem;
+}
+
+.letraH3 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilo.css.map */

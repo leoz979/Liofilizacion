@@ -1,0 +1,85 @@
+/* Animación */
+
+@keyframes texto{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+.animacionLetra{
+    animation-name: texto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.imagenAni1:hover {
+    filter: grayscale(80%);
+}
+
+.imagenAni2:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;}
+
+    .imagenAni3:hover{
+        border-radius:50%;
+        -webkit-border-radius:50%;
+        box-shadow: 0px 0px 15px 15px #ec731e;
+        -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        }
+
+/* Vista Tablet y celular */
+@media(min-width: 300px) and (max-width: 900px){
+    .vistaTexto{
+        display: none;
+    }
+    
+}
+
+@media(min-width: 300px) and (max-width: 600px){
+    .vistaVideo{
+        width : 350px; 
+        height : 200px;
+    }
+    
+}
+
+@media(min-width: 601px) and (max-width: 929px){
+    .vistaVideo{
+        width : 380px; 
+        height : 250px;
+    }
+    
+}
+
+
+@media(min-width: 930px) and (max-width: 1000px){
+    .vistaVideo{
+        width : 450px; 
+        height : 270px;
+    }
+    
+}
+
+@media(min-width: 1001px) and (max-width: 1329px){
+    .vistaVideo{
+        width : 500px; 
+        height : 325px;
+    }
+    
+}
+
+
+@media(min-width: 1330px) and (max-width: 2500px){
+    .vistaVideo{
+        width :660px; 
+        height : 415px;
+    }
+    
+}

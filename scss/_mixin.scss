@@ -1,0 +1,24 @@
+@import "variables";
+@font-face{
+    font-family: Avigea;
+    src: url($rutaLetra);
+}
+
+@mixin letra{
+    font-family: Avigea;
+}
+
+.letraH1{
+    @include letra;
+    text-align:start;
+    padding: 20px;
+    font-size: $tamanoLetra;
+}
+.letraH2{
+    @include letra;
+    font-size: $tamanoLetra - 1;
+}
+
+.letraH3{
+    text-align: center;
+}
