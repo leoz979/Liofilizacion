@@ -42,6 +42,15 @@
     
 }
 
+@media(min-width: 10px) and (max-width: 299px){
+    .vistaVideo{
+        width : 200px; 
+        height : 100px;
+    }
+    
+}
+
+
 @media(min-width: 300px) and (max-width: 600px){
     .vistaVideo{
         width : 350px; 
