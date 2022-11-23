@@ -14,3 +14,18 @@
 {
     border:  3px solid #c9184a;
 }
+
+.socialIma{
+    height:40px;
+    margin: 6px;
+}
+
+.footSocialContenedor{
+    background-color: #c9184a;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

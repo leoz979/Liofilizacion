@@ -18,6 +18,21 @@
   border: 3px solid #c9184a;
 }
 
+.socialIma {
+  height: 40px;
+  margin: 6px;
+}
+
+.footSocialContenedor {
+  background-color: #c9184a;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 .cabecera {
   background-color: #590d22;
   border: 3px black solid;
@@ -147,6 +162,11 @@ p {
   width: 250px;
   height: 250px;
   border-radius: 150px;
+}
+
+.colorBoton {
+  background-color: #1A5276;
+  margin: 5px 5px 10px 5px;
 }
 
 /* Animación */
